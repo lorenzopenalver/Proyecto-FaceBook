@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 html{
     font-size: 62.5%;
@@ -63,7 +64,7 @@ box-shadow: 0 4px 18px -9px;
     margin: 0 auto;
     border: none;
     outline: none;
-    border-radius: 8px;
+    border-radius: 6px;
     padding-left: 10px;
     font-size: 1.6rem;
     font-stretch: 100%;
@@ -77,7 +78,7 @@ box-shadow: 0 4px 18px -9px;
 
 }
 .mail:focus, .mail2:focus{
-    box-shadow: 3px 4px 40px -2px #6877fd;;
+    border: 1px solid #6877fd;
 }
 
 
@@ -94,6 +95,9 @@ box-shadow: 0 4px 18px -9px;
     height: 50px;
     text-decoration: none;
     
+}
+.boton:hover{
+    background-color: #1b69cf;
 }
 .BT{
     color: white;
@@ -124,6 +128,9 @@ box-shadow: 0 4px 18px -9px;
     text-decoration: none;
     
 }
+.boton2:hover{
+    background-color: #30921d;
+}
 .BT2{
     color: white;
     font-size: 1.8rem;
@@ -137,7 +144,12 @@ box-shadow: 0 4px 18px -9px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
+.page-bottom-text a{
+    color: black;
+}
+.page-bottom-text a:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -150,6 +162,9 @@ box-shadow: 0 4px 18px -9px;
     line-height: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+}
+.password-renew:hover{
+    text-decoration: underline;
 }
 footer{
     background-color:#f0f2f5 ;
